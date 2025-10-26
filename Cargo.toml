@@ -1,0 +1,14 @@
+[workspace]
+members = ["crates/shashtra"]
+resolver = "2"
+
+[workspace.package]
+authors = ["Amit Upadhyay <upadhyay@gmail.com>"]
+edition = "2024"
+description = "Bhūmi - the field where thoughts take root"
+license = "UPL-1.0"
+repository = "https://github.com/gananiti/bhumi"
+homepage = "https://github.com/gananiti"
+rust-version = "1.89"
+
+[workspace.dependencies]
